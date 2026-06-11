@@ -41,3 +41,5 @@
     - **Instead of guessing whether a log or square root will work best, you can use Scikit-Learn's automated transformers.**
     - **How it works: These algorithms mathematically analyze your column, find the exact optimal power parameter ($\lambda$), and transform the data into a normal distribution curve.**
     - **Note: Box-Cox only works if your data contains strictly positive numbers ($>0$). If your data has zeros or negative numbers, you must use Yeo-Johnson.**
+
+
