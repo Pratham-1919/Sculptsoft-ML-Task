@@ -35,3 +35,9 @@
     - **The Bounds: It forces all numbers to land strictly inside the range $-1.0$ to $+1.0$.**
     - **The Unique Feature: It never destroys sparsity. If your matrix contains thousands of zeros (like a sparse database table or a text One-Hot Encoded array), it preserves those zeros exactly as 0.0.**
     - **When to use: It is the industry standard for scaling high-cardinality sparse matrices or text vectors (TF-IDF tokens) right before passing them into linear models or deep neural networks.**
+
+
+- **Other Advanced Technique**
+    - **Unit Vector Scaling**
+    - **Binning / Quantization**
+    - **Log Scaling**
