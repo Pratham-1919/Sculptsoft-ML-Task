@@ -21,4 +21,8 @@
 ### Boosting
 - **Models are trained one after another. Each new model focuses on fixing the errors made by the previous ones. The final prediction is a weighted combination of all models, which helps reduce bias and improve accuracy.**
 
+<<<<<<< HEAD
     ![Screenshot](Screenshot%202026-06-25%20120728.png)**
+=======
+  ![Screenshot](Screenshot%202026-06-25%20120728.png)**
+>>>>>>> 89b132ee3bca3fa9fbf2474bef5a9320a04a53d1
