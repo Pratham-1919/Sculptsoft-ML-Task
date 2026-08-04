@@ -28,7 +28,7 @@ Each decoder layer consists of three main sub-layers:
 
 #### 2) Encoder-Decoder Attention Mechanism: This sub-layer allows the decoder to focus on relevant parts of the encoder's output representation. This allows the decoder to focus on relevant parts of the input, essential for tasks like translation.
 
-#### 3) Feed-Forward Neural Network: This sub-layer processes the combined output of the masked self-attention and encoder-decoder attention mechanisms.
+#### 3) Feed-Forward Neural Network: This sub-layer processes the combined output of the masked self-attention and encoder-decoder attention mechanisms, Here we make use of ReLU or GeLU.
 
 ### Details of each steps:
 
