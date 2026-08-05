@@ -11,3 +11,15 @@ RuView-RuView.zip
 
 dogsvscats
 *.zip
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
