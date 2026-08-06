@@ -21,7 +21,7 @@ tempelate1 = PromptTemplate(
 
 
 template2 = PromptTemplate(
-    template="write 5 line summary on the following text. /n {text}",
+    template="write 5 line summary on the following text. \n {text}",
     input_variables=["text"])
 
 parser = StrOutputParser()
@@ -30,3 +30,4 @@ chain = tempelate1 | model | parser | template2 | model | parser
 
 result = chain.invoke({"topic":"Basketball"})
 print(result)
+chain.get_graph().print_ascii()
